@@ -1,8 +1,15 @@
 <html>
     <head>
-        <title>File explorer</title> 
+        <title>File explorer</title>
+        <link rel="stylesheet" href="app.css" /> 
     </head>
     <body>
-        <h1>Welcome electron</h1>
+        <div id="toolbar">
+            <div id = "current-folder">
+                <script>
+                    document.write(require('osenv').home());
+                </script>
+            </div>
+        </div>
     </body>
 </html>

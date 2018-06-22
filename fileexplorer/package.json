@@ -3,6 +3,7 @@
     "version": "1.0.0",
     "main": "main.js",
     "dependencies": {
-        "npm": "^6.1.0"
+        "npm": "^6.1.0",
+        "osenv": "^0.1.5"
     }
 }
