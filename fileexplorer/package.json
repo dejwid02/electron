@@ -3,6 +3,7 @@
     "version": "1.0.0",
     "main": "main.js",
     "dependencies": {
+        "async": "^2.6.1",
         "npm": "^6.1.0",
         "osenv": "^0.1.5"
     }
